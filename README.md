@@ -9,6 +9,7 @@ Android telefon ve tablette tarayıcıda çalışan, CapCut düzeninde ücretsiz
 
 - Klip bölme, kırpma, uzun basıp sıralama, geri al / yinele, klibi ters oynatma (sesiyle birlikte)
 - Hız (0,1x–10x, ses tonu korunur), ses düzeyi, yavaş açılış/kapanış, müzik ve videodan ses
+- Ses kütüphanesi: müzik, ses efekti ve ortam sesleri (yağmur, kuş, kafe…) [Openverse](https://openverse.org) üzerinden Jamendo ve Freesound'dan aranır, dokununca dinlenir, “Ekle” ile doğrudan kaynağından indirilip ses klibi olur. Yalnızca ticari kullanıma izin veren lisanslar (CC0, CC BY, CC BY-SA) gösterilir; dışa aktarınca atıf metni hazır verilir.
 - Metin (12 yazı tipi, hazır stiller, animasyonlar), çıkartmalar, resim/video katmanı
 - 16 filtre ve ayarlar, 23 geçiş, 24 efekt, 9:16 / 1:1 / 4:5 / 16:9 oranları, bulanık arka plan
 - Taslaklar cihazda otomatik kaydedilir; arayüz Türkçe, Rusça, İngilizce
@@ -17,7 +18,7 @@ Android telefon ve tablette tarayıcıda çalışan, CapCut düzeninde ücretsiz
 Telefonda Chrome ile açıp menüden **Ana ekrana ekle** derseniz uygulama gibi tam ekran açılır.
 
 ## English
-A free, watermark-free, CapCut-style video editor that runs in the browser on Android phones and tablets. Media never leaves the device: decoding, editing and MP4 export (H.264 + AAC) all happen locally via WebCodecs. Includes splitting/trimming, reverse playback, speed with pitch preservation, text, stickers, overlays, 16 filters, 23 transitions, 24 effects, aspect ratios, drafts and a Turkish/Russian/English UI. Export settings cover 480p–4K or source/custom resolution, source or custom frame rate, custom bitrate, H.264/H.265/AV1/VP9, 2×–3× supersampling and audio bitrate.
+A free, watermark-free, CapCut-style video editor that runs in the browser on Android phones and tablets. Media never leaves the device: decoding, editing and MP4 export (H.264 + AAC) all happen locally via WebCodecs. A built-in sound library searches openly licensed music, sound effects and ambience (Jamendo and Freesound via [Openverse](https://openverse.org)); picks are downloaded straight from the source, limited to licenses that allow commercial use, and the credit text is provided after export. Includes splitting/trimming, reverse playback, speed with pitch preservation, text, stickers, overlays, 16 filters, 23 transitions, 24 effects, aspect ratios, drafts and a Turkish/Russian/English UI. Export settings cover 480p–4K or source/custom resolution, source or custom frame rate, custom bitrate, H.264/H.265/AV1/VP9, 2×–3× supersampling and audio bitrate.
 
 `index.html` is a single self-contained file; it can also be downloaded and opened locally in Chrome or Edge.
 
