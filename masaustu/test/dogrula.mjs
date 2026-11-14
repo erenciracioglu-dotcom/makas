@@ -3,7 +3,7 @@
 import fs from 'fs';
 const [port, kaynak, res, K, cikti] = process.argv.slice(2);
 const list = await (await fetch(`http://127.0.0.1:${port}/json/list`)).json();
-const t = list.find(x => x.url.startsWith('makas://') || /index.html/.test(x.url));
+const t = list.find(x => x.url.startsWith('makas://') || x.url.includes('index.html') || x.url.includes('github.io/makas'));
 const ws = new WebSocket(t.webSocketDebuggerUrl);
 await new Promise(r => ws.addEventListener('open', r));
 let id = 0; const bek = new Map();
