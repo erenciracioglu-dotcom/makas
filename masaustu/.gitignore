@@ -1,0 +1,9 @@
+node_modules/
+dist/
+app/
+test/video/
+test/sonuc/
+test/*.json
+test/*.png
+test/*.log
+*.log
